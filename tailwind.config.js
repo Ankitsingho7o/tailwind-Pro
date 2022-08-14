@@ -10,9 +10,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        brightRed: 'hsl(12,88%,59%)',
-        brightRedLight: 'hsl(12,88%,69%)',
+        skin: '#F8F1F1',
+        darkblue: '#11698E',
         brightRedSupLight: 'hsl(12,88%,95%)',
+        green:'#16C79A',
         darkBlue: 'hsl(228,39%,23%)',
         darkGrayishBlue: 'hsl(227,12%,61%)',
         veryDarkBlue: 'hsl(233,12%,13%)',
@@ -20,9 +21,10 @@ module.exports = {
         veryLightGray: 'hsl(0,0%,98%)',
       },
       fontFamily: {
-        Montserrat: ['Montserrat'],
-        Montserrat_Alt: ['Montserrat Alternates']
-      },
+        primary: ['Montserrat', 'sans-serif'],
+        secondary: ['Montserrat Alternates', 'sans-serif'],
+        cursive:['Indie Flower', 'cursive']
+       }
     },
     plugins: [],
   }
