@@ -2,16 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat+Alternates&family=Montserrat:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
-.animated {
-  background:
-    linear-gradient(-45deg, #11698e  40%, #fff 0 60%, #11698e  0) right/300% 100% no-repeat,
-    linear-gradient(-45deg, #0000 40%, #11698e 0 60%, #0000 0) right/300% 100% no-repeat;
-  -webkit-background-clip: text, padding-box;
-  background-clip: text, padding-box;
-  transition: 0.8s
-}
-.animated:hover {
-  background-position: left;
-
-}
 @tailwind utilities;
+
+/* 
+ */
