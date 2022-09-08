@@ -27,6 +27,20 @@
     transform-origin: bottom left;
     background-color: #F8F1F1;
   }
+ nav{
+  transition: 0.25s ease-in-out;
+ }
+  nav.Sticky{
+    padding: 0.75rem 2rem 0.75rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: 0.25s ease-in-out;
+    background-color: #11698e;
+  }
+  .grad{
+    background-image: radial-gradient(circle,#16C79A,#3B82F6,#9333EA);
+  }
 @tailwind utilities;
 
 /* 
