@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+  </head>
+  <body
+    class="bg-gradient-to-r from-emerald-300 via-darkblue to-darkBlue font-primary h-[100vh]"
+  >
+    <div
+      class="font-bold mt-6 flex justify-end"
+    >
+      <div class="bg-skin px-5 py-1 mr-6 hover:scale-110 transition-all duration-400 ease-in-out text-lg rounded-full">
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+    <div
+      class="form_box container md:w-2/5 xl:w-1/4 my-24 m-auto flex flex-col items-center justify-center bg-transparent z-20"
+    >
+      <div class="flex flex-row justify-center">
+        <img src="images/logo.png" alt="" class="w-1/5" />
+      </div>
+      <div>
+        <form action="">
+          <input
+            type="email"
+            placeholder="E-mail"
+            class="block mt-8 pl-2 w-64 xl:w-80 py-2 border-skin border-2 bg-transparent text-skin placeholder-skin shadow-xl"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            class="block mt-8 pl-2 w-64 xl:w-80 py-2 border-skin border-2 bg-transparent text-skin placeholder-skin shadow-xl"
+            required
+          />
+          <div class="mt-5 text-skin flex justify-center">
+            <a href="register.html" class="hover-underline-animation"
+              ><center>New User? Register Here</center></a
+            >
+          </div>
+          <button
+            type="submit"
+            class="block mx-auto mt-8 bg-skin text-black px-5 py-1 text-lg hover:scale-110 transition-all duration-400 ease-in-out font-bold rounded-full"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
