@@ -13,10 +13,10 @@
   <body class="box-border bg-skin">
     <!-- Navbar -->
     <header>
-      <nav class="Navbar relative mx-auto p-5 md:px-8 bg-darkblue z-10">
+      <nav class="Navbar relative mx-auto p-5 px-10 md:px-8 bg-darkblue z-10">
         <!-- flex  conatiner-->
         <div
-          class="Sticky flex flex-col md:flex-row items-center justify-around m-auto"
+          class="Sticky flex flex-row justify-between md:flex-row items-center md:justify-around m-auto"
         >
           <!-- Logo  -->
           <div class="text-4xl flex justify-center items-center">
@@ -24,6 +24,7 @@
               <img src="images/logo.png" alt="" class="w-16" />
             </div>
           </div>
+
           <!-- Items -->
           <div class="hidden md:flex md:justify-center space-x-6 text-xl">
             <a href="#Hero_Section" class="hover-underline-animation">Home</a>
@@ -36,11 +37,42 @@
             >
             <a href="" class="hover-underline-animation">Contact</a>
           </div>
+
           <!-- Buttons -->
-          <div class="button">
+          <div class="button hidden md:block">
             <a
               href="login.html"
-              class="hidden md:block text-lg font-medium transition ease-in-out delay-150 bg-skin text-darkblue rounded-full px-7 py-2 border-2 hover:bg-transparent hover:border-skin hover:text-skin"
+              class="text-lg font-medium transition ease-in-out delay-150 bg-skin text-darkblue rounded-full px-7 py-2 border-2 hover:bg-transparent hover:border-skin hover:text-skin"
+              >Get Started</a
+            >
+          </div>
+
+          <!-- Hmaburger Menu -->
+          <div class="md:hidden">
+            <button
+              class="hamburger md:hidden focus:outline-none"
+              id="menu-btn"
+            >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col hidden items-center py-8 mt-10 space-y-6 font-bold bg-darkblue left-6 right-6 drop-shadow-md text-skin font-primary rounded-lg"
+          >
+            <a href="#Hero_Section">Home</a>
+            <a href="#Feature_Section">Feature</a>
+            <a href="#About_Us">About</a>
+            <a href="#Testimonials">Testimonials</a>
+            <a href="">Contact</a>
+            <a
+              href="login.html"
+              class="font-bold transition ease-in-out delay-150 bg-skin text-darkblue rounded-full px-7 py-2 border-2 hover:bg-transparent hover:border-skin hover:text-skin"
               >Get Started</a
             >
           </div>

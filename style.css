@@ -7,40 +7,87 @@
     position: relative;
     color: #F8F1F1;
     cursor: pointer;
-  }
+}
   
-  .hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #F8F1F1;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #F8F1F1;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
   
-  .hover-underline-animation:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-    background-color: #F8F1F1;
-  }
- nav{
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color: #F8F1F1;
+}
+
+nav{
   transition: 0.25s ease-in-out;
- }
-  nav.Sticky{
-    padding: 0.75rem 2rem 0.75rem 2rem;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    transition: 0.25s ease-in-out;
-    background-color: #11698e;
-  }
-  .grad{
-    background-image: radial-gradient(circle,#16C79A,#3B82F6,#9333EA);
-  }
+}
+  
+nav.Sticky{
+  padding: 0.75rem 2rem 0.75rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: 0.25s ease-in-out;
+  background-color: #11698e;
+}
+
+.hamburger{
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+  transform: rotate(90deg);
+}
+
+.hamburger-top, .hamburger-middle, .hamburger-bottom{
+  position: absolute;
+  top:-7px;
+  right: 20px;
+  height: 30px;
+  width: 3px;
+  background: white;
+  transform: rotate(0deg);
+  transition: all 0.25s;
+}
+
+.hamburger-middle{
+  transform: translateX(7px);
+}
+.hamburger-bottom{
+  transform: translateX(14px);
+}
+
+.open{
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+.open .hamburger-top{
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+  top: -14px;
+  right: 0px;
+}
+
+.open .hamburger-middle{
+  display: none;
+}
+
+.open .hamburger-bottom{
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+  top: -14px;
+  right: 0px;
+}
+
 @tailwind utilities;
 
 /* 
