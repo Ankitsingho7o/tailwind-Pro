@@ -17,8 +17,8 @@ It is a virtual guidance platform that serves as a bridge between students and m
 At present, only the front-end of the website has been developed, which consists of the landing page and log-in and registration page.
 
 ## <p id="features_for_future">Features to implement in future:</p>
-- Search Bar where user can search for mentors according to their domain
-- Dashboard for the Mentors and the Students.
+- Search Bar where user can search for mentors according to their domain.
+- Dashboard for the Mentors.
 - Backend using Mongodb.
 - Appointment Booking Feature where Student can schedule their appointment.
 
@@ -26,6 +26,7 @@ At present, only the front-end of the website has been developed, which consists
 - HTML
 - TailwindCss
 - JavaScript
+- ReactJs
 
 ## <p id="prerequisites">Prerequisite to run the project in your desktop</p>
 It is recommended that your laptop should have the following specifications in order to run this project:
@@ -44,4 +45,4 @@ It is recommended that your laptop should have the following specifications in o
    - ```npm run start``` - It will host the project in to a local server
 
 ## <p id="live">Live Project link</p>
-[https:\\vguide.vercel.app](https://vguide.vercel.app/)
+[https:\\v-guide.netlify.app](https://v-guide.netlify.app/)
