@@ -36,6 +36,7 @@
             type="text"
             placeholder="Roll Number"
             class="block mt-6 pl-2 md:ml-10 w-64 xl:w-80 py-2 border-skin border-2 bg-transparent text-skin placeholder-skin shadow-xl"
+            maxlength="14"
             required
           />
           <input
@@ -45,19 +46,13 @@
             required
           />
           <select
-            name=""
-            id=""
+            name="option"
+            id="option"
             class="block mt-6 pl-2 w-64 xl:w-80 py-2 border-skin border-2 bg-transparent text-skin placeholder-skin shadow-xl"
           >
-            <option value="" class="text-black bg-transparent">
-              Select your type
-            </option>
-            <option value="student" class="text-black bg-transparent">
-              Student
-            </option>
-            <option value="mentor" class="text-black bg-transparent">
-              Mentor
-            </option>
+            <option value="" class="text-black">Select your type</option>
+            <option value="student" class="text-black">Student</option>
+            <option value="mentor" class="text-black">Mentor</option>
           </select>
           <input
             type="email"
@@ -69,18 +64,21 @@
             type="tel"
             placeholder="Phone"
             class="block mt-6 pl-2 w-64 xl:w-80 py-2 border-skin border-2 bg-transparent text-skin placeholder-skin shadow-xl"
+            maxlength="10"
             required
           />
           <input
             type="password"
             placeholder="Password"
             class="block mt-6 pl-2 w-64 xl:w-80 py-2 border-skin border-2 bg-transparent text-skin placeholder-skin shadow-xl"
+            minlength="6"
             required
           />
           <input
             type="password"
             placeholder="Confirm Password"
             class="block mt-6 pl-2 w-64 xl:w-80 py-2 border-skin border-2 bg-transparent text-skin placeholder-skin shadow-xl"
+            minlength="6"
             required
           />
           <div class="mt-5 text-skin flex justify-center md:col-span-2">
