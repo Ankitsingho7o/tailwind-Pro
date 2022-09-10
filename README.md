@@ -24,10 +24,11 @@ At present, only the front-end of the website has been developed, which consists
 
 ## <p id="tech">Tech Stack Used:</p>
 - HTML
+- Vanilla CSS
 - TailwindCss
 - JavaScript
+- Jquery
 - ReactJs
-- ExpressJs
 
 ## <p id="prerequisites">Prerequisite to run the project in your desktop</p>
 It is recommended that your laptop should have the following specifications in order to run this project:
