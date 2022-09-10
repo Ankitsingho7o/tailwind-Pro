@@ -56,7 +56,7 @@ nav.Sticky{
   right: 20px;
   height: 30px;
   width: 3px;
-  background: white;
+  background: #F8F1F1;
   transform: rotate(0deg);
   transition: all 0.25s;
 }
