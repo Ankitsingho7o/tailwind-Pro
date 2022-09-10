@@ -45,4 +45,4 @@ It is recommended that your laptop should have the following specifications in o
    - ```npm run start``` - It will host the project in to a local server
 
 ## <p id="live">Live Project link</p>
-[https:\\v-guide.netlify.app](https://v-guide.netlify.app/)
+[https://v-guide.netlify.app](https://v-guide.netlify.app/)
